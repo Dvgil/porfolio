@@ -73,7 +73,15 @@ width: auto;
     border-radius: 9px;
   
   }
+ .picture-frame-2 img{
+  
+  width: 900px;
+  margin: 10px;
+  position: relative;
+  left: 20vw;
+  object-fit: cover;
 
+ }
 
   .hero-text{
     flex-basis: 60%;
