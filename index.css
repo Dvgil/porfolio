@@ -15,51 +15,38 @@
 
   /* -----Hero Section */
   .text-container{  
-   border: 2px solid green;
    width: 80%;
    max-width: 1200px;
    margin: 20px auto;
    display: flex;
    flex-direction: column;
    gap: 20px;
-   font-family:"DM Sans", serif; 
+ 
   }
- .header{
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  font-family: "Work Sans", serif;
-
- }
+ 
 .content{
   display: flex; 
   gap: 20px;
 align-items: flex-start
 }
 
-/* 
-  .text-container h1{
-    font-family: "Work Sans", serif;
-    font-weight: 900;
-     font-size: 95px;
-     color: black;
-     text-align: start;
-     margin: 30px;
-     padding: 20px
+h1{
+  font-family: "Work Sans", serif;
+  font-weight: 900;
+   font-size: 55px;
+   color: black;
+   text-transform: uppercase;
+}
 
-  }
-   
-  .text-container h2{
+
+ 
+  .info-box h2{
       font-family: "Work Sans", serif;
     font-weight: 900;
-     font-size: 95px;
+     font-size: 55px;
      color: black;
-     text-align: end;
      text-transform: uppercase;
-     margin: 30px;
-     padding: 20px
-     
-  } */
+  } 
   p{
     font-family: "DM Sans", serif;
 
@@ -84,6 +71,7 @@ align-items: flex-start
 .info-box{
   flex: 1;
   padding: 15px;
+  font-size: 45px;
 
 }
 
@@ -91,6 +79,8 @@ align-items: flex-start
 .tech-stack{
  margin-top: 10px;
 display: flex;
+align-items: center;
+justify-content: center;
 gap: 10px;
   }
 
@@ -144,6 +134,8 @@ gap: 10px;
   padding: 15px;
   text-align: center;
   border-radius: 8px;
+  font-family: "DM Sans", serif;
+  font-size: 45px;
 }
 
 .bottom-section .based{
@@ -151,14 +143,20 @@ gap: 10px;
   padding: 15px;
   text-align: center;
   border-radius: 8px;
+  font-family: "DM Sans", serif;
+  font-size: 45px;
 }
 
 @media only screen and (max-width: 705px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+ h1{
+  font-size: 45px;
+ }
+ .info-box h2{
+  font-size: 35px;
+ }
+ .info-box p{
+  font-size: 35px;
+ }
 .content img {
     width: 80%;
 }
@@ -170,6 +168,15 @@ gap: 10px;
   width: 45px;
   height: 25px;
   font-size: 16px;
+}
+.bottom-section .work{
+  font-size: 35px;
+}
+.bottom-section .based{
+  font-size: 35px;
+}
+.bottom-section .Arrow-down{
+  font-size: 45px;
 }
 }
 /* Centering when width > 1500px */
