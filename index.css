@@ -4,6 +4,8 @@
   --main-color: #323232;
   --font-color-sub: #666;
   --light-font-color:#F8F3ED;
+  --text-color: #000000;
+  --background-color:#e1dfdd;
  }
 
  
@@ -21,7 +23,6 @@
     box-shadow: 44px 44px var(--main-color);
     border-radius: 9px;
    width: 80%;
-   max-width: 1200px;
    padding: 20px;
    margin: 20px auto;
    display: flex;
@@ -68,6 +69,7 @@ h2{
      font-style: normal;
      text-decoration: underline;
   } 
+
   p{
     font-family: "DM Sans", serif;
 
@@ -271,60 +273,78 @@ h3{
   }
   }
 
-
-
-h3{
-  font-family: "DM Sans", serif;
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 900;
-  
-}
-
-
-
 .projects{
- 
   background-color: var(--main-color);
 }
 
 .content-wrap{
   width: 80%;
-  max-width: 1200px;
   margin: 140px auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: var(--light-font-color);
+  
+
 }
 .content-wrap h1{
-  color: var(--light-font-color);
+  color: var(--background-color);
   font-size: 55px;
   border-bottom:1px solid ;
   margin-bottom: 90px;
 }
-
 .column-narrow{
-  border: 1px solid;
-border-radius: 1.6em;
+  border: 4px solid var(--background-color);
+border-radius: 9px;
+background-color: var(--background-color);
+padding-bottom: 60px;
+}
+h4{
+  font-family: "Work Sans", serif;
+  font-weight: 900;
+   font-size: 55px;
+   color: black;
+   text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.column-narrow p{
+  margin-left: 20px;
+  width: 30%;
+  font-size: 18px;
+  font-family: "DM Sans", serif;
 }
 
 .picture-frame-2 img{
   float: right;
-  
-  width: 40%;
+  width: 55%;
   object-fit: cover;
+  
+ 
 
  }
 
  .info-class p{
   margin-left: 20px;
-  font-size: 14px; 
+ font-size: 30px;
    width: 36%;
   padding-bottom: 10px;
-  border-bottom: 1px solid;
+  border-bottom: 2px solid;
  
  }
+
+ .tech-stack-project{
+  margin-top: 10px;
+  margin-left: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 20px;
+   }
+ 
+   .tech-stack-project svg{
+     width: 60px;
+     height: 40px;
+   }
   
   footer{
   
