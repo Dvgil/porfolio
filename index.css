@@ -162,68 +162,6 @@ gap: 10px;
   font-size: 45px;
 }
 
-@media only screen and (max-width: 705px) {
- h1{
-  font-size: 35px;
- }
- h2{
-  font-size: 35px;
- }
- .info-box p{
-  font-size: 35px;
- }
-.content img {
-    width: 80%;
-}
-.info-box {
-    width: 100%;
-}
-h3{
-  justify-content: center;
-}
-
-.tech-stack svg{
-  width: 45px;
-  height: 25px;
-  font-size: 16px;
-}
-.bottom-section .work{
-  font-size: 35px;
-}
-.bottom-section .based{
-  font-size: 35px;
-}
-.bottom-section .Arrow-down{
-  font-size: 45px;
-}
-
-.text-container{  
-  border-radius: 6px;
-  box-shadow: 10px 10px var(--main-color);
-
-
-}
-.picture-frame-2 img{
-  
-
-  height: auto;
-  width: 40%;
-  object-fit: cover;
-  border: 1px solid red;
-  object-position: center;
-  align-items: center;
- 
-}
-
-
-
-
-
-
-
-
-
-}
 /* Centering when width > 1500px */
 @media (min-width: 1500px) {
   .container {
@@ -297,7 +235,8 @@ h3{
 border-radius: 9px;
 background-color: var(--background-color);
 padding-bottom: 60px;
-display: none;
+/* display: none; */
+
 }
 
 h4{
@@ -320,9 +259,8 @@ h4{
   float: right;
   width: 55%;
   object-fit: cover;
-  
- 
-
+  border: 4px solid var(--main-color);
+  border-radius: 4px;
  }
 
  .info-class p{
@@ -350,9 +288,10 @@ h4{
 
 
 .controls-section{
-  width: 100%;
-  max-width: 400px;
-  border: 1px solid;
+   width: 30%;
+ border: 1px solid ;
+ float: right;
+  
 }
 
 .controls-section .left-button{
@@ -395,6 +334,74 @@ h4{
    transform: rotate(270deg);
 }
 
+@media only screen and (max-width: 705px) {
+  h1{
+   font-size: 35px;
+  }
+  h2{
+   font-size: 35px;
+  }
+  .info-box p{
+   font-size: 35px;
+  }
+ .content img {
+     width: 80%;
+ }
+ .info-box {
+     width: 100%;
+ }
+ h3{
+   justify-content: center;
+ }
+ 
+ .tech-stack svg{
+   width: 45px;
+   height: 25px;
+   font-size: 16px;
+ }
+ .bottom-section .work{
+   font-size: 35px;
+ }
+ .bottom-section .based{
+   font-size: 35px;
+ }
+ .bottom-section .Arrow-down{
+   font-size: 45px;
+ }
+ 
+ .text-container{  
+   border-radius: 6px;
+   box-shadow: 10px 10px var(--main-color);
+ 
+ 
+ }
+ .content-wrap h1{
+  font-size: 35px;
+ }
+ 
+ 
+ .picture-frame-2 img{
+  width: 98%;
+
+ }
+ 
+ h4{
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+ }
+ .column-narrow p{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+ }
+ 
+ }
   
   footer{
   

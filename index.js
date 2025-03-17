@@ -4,6 +4,11 @@ showDivs(slideIndex);
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("column-narrow");
@@ -13,11 +18,8 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
 }
-x[slideIndex-1].style.display = "block";  
 
+x[slideIndex-1].style.display = "block";  
 
 }
 
-window.onload = function() {
-    showDivs(slideIndex);
-  }
