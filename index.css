@@ -334,7 +334,6 @@ margin-top: 10px ;
   background-color: #f1f1f1;
   color: black;
   font-size: 46px;
- 
   border: none;
   cursor: pointer;
   border-radius: 50%;
@@ -418,14 +417,22 @@ margin-top: 10px ;
 padding-top: 10px;
 padding-bottom: 10px;
  }
+
  
  }
+/* adjust to the correct screen size  */
+@media only screen and (min-width: 1600px) {
+  .timeline{
+    left: 25vw;
+  }
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   padding-bottom: 90px;
+  
 }
 
 /* The actual timeline (the vertical ruler) */
