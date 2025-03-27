@@ -247,7 +247,7 @@ gap: 10px;
 border-radius: 9px;
 background-color: var(--background-color);
 padding-bottom: 60px;
-display: none;
+/* display: none; */
 
 }
 
@@ -263,8 +263,8 @@ h4{
 
 .column-narrow p{
   margin-left: 20px;
-  width: 30%;
-  font-size: 18px;
+  width: 26%;
+  font-size: 24px;
   font-family: "DM Sans", serif;
 }
 
@@ -278,8 +278,8 @@ h4{
 
  .info-class p{
   margin-left: 20px;
- font-size: 30px;
-   width: 36%;
+  font-size: 30px;
+  width: 26%;   
   padding-bottom: 10px;
   border-bottom: 2px solid;
  
@@ -393,6 +393,15 @@ margin-top: 10px ;
  .content-wrap h1{
   font-size: 35px;
  }
+
+ 
+
+ 
+ }
+
+
+ @media only screen and (max-width: 1850px){
+  
  .content-wrap h2{
   font-size: 35px;
  }
@@ -417,11 +426,10 @@ margin-top: 10px ;
 padding-top: 10px;
 padding-bottom: 10px;
  }
-
- 
+  
  }
 /* adjust to the correct screen size  */
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1800px) {
   .timeline{
     left: 25vw;
   }
@@ -541,6 +549,29 @@ padding-bottom: 10px;
   
 }
 
+.github {
+  position: relative;
+left: 20px;
+top: 30px;
+  font-family: "Work Sans", serif;
+  font-weight: 900;
+   font-size: 25px;
+   color: black;
+   text-transform: uppercase;
+  
+}
+
+.website{
+position: relative;
+left: 50px;
+top: 30px;
+
+  font-family: "Work Sans", serif;
+  font-weight: 900;
+   font-size: 25px;
+   color: black;
+   text-transform: uppercase;
+}
 
   footer{
   
@@ -548,7 +579,8 @@ padding-bottom: 10px;
      flex-direction: column;
       font-size: .8em;
     text-align: center;
-    border: 1px solid;
+    border: 3px solid var(--main-color);
+    border-radius: 9px;
     
       
   }
@@ -563,12 +595,12 @@ padding-bottom: 10px;
     padding: 10px; 
     display: inline-block;
     flex-direction: column;
-    color: #F2F4F3;
+    color: var(--main-color);
   }
   
   
   a:hover {
-      color: #A72608;
+      color: var(--light-font-color);
   }
   
   
