@@ -380,6 +380,10 @@ margin-top: 10px ;
  }
  h3{
    justify-content: center;
+   
+ }
+ .info-box h3{
+  font-size: 32px;
  }
  
  .tech-stack svg{
@@ -411,6 +415,9 @@ margin-top: 10px ;
  .column-narrow p{
   margin-top: 30px; 
  }
+ .picture-frame-2 img{
+  width: 100%;
+ }
  
  }
 
@@ -420,11 +427,11 @@ margin-top: 10px ;
  .content-wrap h2{
   font-size: 35px;
  }
- 
+/*  
  .picture-frame-2 img{
   width: 98%;
 
- }
+ } */
  
  h4{
   font-size: 35px;
